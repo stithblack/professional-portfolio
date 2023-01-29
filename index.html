@@ -9,57 +9,66 @@
 
   <body>
     <!--Navigation-->
-    <header>
+    <nav>
+      <a href="#contact">Contact</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#about">About</a>
+    </nav>
+    <!--About-->
+    <section class="about">
       <img 
-        src="https://via.placeholder.com/150" 
-        class="logo" 
-        alt="Profile picture of myself">
-      </img>
-      <h1>stith.black</h1>
-        <ul>
-          <li>
-            <a href="#about-me">About</a>
-          </li>
-          <li>
-            <a href="#portfolio">Portfolio</a>
-          </li>
-          <li>
-            <a href="#contact-me">Contact Me</a>
-          </li>
-        </ul>
-    </header>
-    <!--Content-->
-    <section class="about-me">
-      <h2>About</h2>
-      <p>
-        My name is Francis Blackwell Stith, Jr, and I've always immersed myself in technology.
-        Some of my proficiencies include Microsoft 365 and AWS. I also self-host services on 
-        my personal servers at home and dabble in programming and web development. Included 
-        below are some of my completed projects.
+        class="profile" 
+        src="./assets/img/profile.jpg" 
+        alt="Profile picture of Francis."
+      >
+      <h1>Francis Blackwell Stith, Jr.</h1>
+      <p>I'm a technology professional with over five years industry experience.
+        I'm proficient in AWS, Microsoft 365, and I've also created some small applications
+        while exploring web development. Thanks for visiting!
       </p>
+    </section>
+    <!--Portfolio-->
+    <article class="showcase">
+      <img 
+        class="card-img" 
+        img src="https://via.placeholder.com/1200x100.png" 
+        alt="Placeholder image."
+      >
+      <h2>Personal Website</h2>
+      <p>A static blog and resume website hosted on AWS using S3 and Route 53.
+      </p>
+    </article>
     <section class="portfolio">
-      <h2>Portfolio</h2>
       <article class="card">
+        <img 
+          class="card-img" 
+          img src="https://via.placeholder.com/200x100.png" 
+          alt="Placeholder image."
+        >
+        <h2>Old Reddit Redirector</h2>
+        <p>An extension for Google Chrome that auto loads Reddit pages into
+          their "old.reddit.com" counterparts.
+        </p>
       </article>
       <article class="card">
-      </article>
+        <img 
+          class="card-img" 
+          img src="https://via.placeholder.com/200x100.png" 
+          alt="Placeholder image."
+        >
+        <h2>Raspberry Pi Door Counter</h2>
+        <p>A Python program that counts people entering a room using a Raspberry Pi and
+          PIR sensor.
+        </p>
+      </article>      
       <article class="card">
-      </article>
-      <article class="card">
+        <img 
+          class="card-img" 
+          img src="https://via.placeholder.com/200x100.png" 
+          alt="Placeholder image."
+        >
+        <h2>Coming Soon</h2>
+        <p>Who knows what will come next?
+        </p>
       </article>
     </section>
-    <section class="contact-me">
-      <h2>Contact Me</h2>
-      <ul>
-        <li><a href="https://github.com/stithblack/">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/francis-stith-78b35215a/">LinkedIn</a></li>
-        <li><a href="https://twitter.com/stithblack">Twitter</a></li>
-      </ul>
-    </section>
-    <!--Footer-->
-    <section class="footer">
-      <h3>Thanks for visiting.</h3>
-      <p>&copy; 2023 stith.black</p>
-    </section>
-  </body>
-</html>
