@@ -1,10 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
-
+/*Includes custom scrollbar*/
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     background-color: #24252a;
+    scrollbar-width: auto;
+    scrollbar-color: #88828a #24252a;
+    font-family: "Montserrat", sans-serif;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #24252a;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    border: 3px solid #ecf0f1;
 }
 
 body {
@@ -32,8 +49,37 @@ nav a:hover {
     color: #808080;
 }
 
-/*About Styling*/
+/*Header Styling*/
+h1 {
+    font-size: 50px;
+    padding: 20px;
+}
 
+.profile {
+    max-width: 100%;
+    height: auto;
+    padding: 50px;
+    border-radius: 20% ;
+}
+/*About Styling*/
+.about {
+    display: flex;
+    padding: 10px;
+    margin: 10px  
+}
+
+.about h2 {
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.about p {
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+}
 
 /*Portfolio Styling*/
 .showcase {
@@ -107,7 +153,8 @@ nav a:hover {
     align-items: center;
     height: 500px;
     font-size: 50px;
-    padding: 150px;
+    padding: 70px;
+    text-decoration: underline;
 }
 
 .contact ul {
@@ -153,7 +200,7 @@ nav a:hover {
     text-align: center;
 }
 
-.footer h2 {
+.footer h3 {
     margin: 8px;
     font-size: 20px;
 }
