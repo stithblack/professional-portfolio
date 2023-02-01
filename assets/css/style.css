@@ -33,48 +33,15 @@ nav a:hover {
 }
 
 /*About Styling*/
-.about {
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px;
-    
-}
 
-.profile {
-    border-radius: 50%;
-    width: 25%;
-    height: auto;
-}
-
-.about h1 {
-    font-size: xx-large;
-    padding: 30px;
-}
-
-.about p {
-    font-size: large;
-}
 
 /*Portfolio Styling*/
-.portfolio {
-    flex: 4;
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-
 .showcase {
     border-style: solid;
     border-width: 1px;
     padding: 10px;
     margin: 20px;
-    width: 75%;
+    width: auto;
     height: auto;
     flex: 0 0 300px;
 }
@@ -91,6 +58,15 @@ nav a:hover {
 
 .showcase img {
     width: 100%;
+}
+
+.portfolio-items {
+    flex: 4;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 .card {
@@ -116,7 +92,72 @@ nav a:hover {
 .card img {
     width: 100%;
 }
+
+/*Contact Styling*/
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.contact h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    font-size: 50px;
+    padding: 150px;
+}
+
+.contact ul {
+    display: flex;
+}
+
+.contact ul li {
+    display: inline-block;
+    transition: transform 250ms;
+}
+
+.contact ul li:hover {
+    transform: translateY(-10px);
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+}
   
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #f33b35;
+    color: white;
+}
+
+/*Footer Styling*/
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+
+.footer h2 {
+    margin: 8px;
+    font-size: 20px;
+}
+
 @media screen and (max-width: 768px) {
     main,
     nav {
