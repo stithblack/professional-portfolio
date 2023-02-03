@@ -25,5 +25,4 @@ The following video shows the web application's appearance:
 ![2023-02-02 19-28-00](https://user-images.githubusercontent.com/24467248/216485963-7b1de335-ea8f-4a03-a9c4-cc75ea6b0f8a.gif)
 
 ## Link
-TBD
-
+Navigate to <a href="https://stithblack.github.io/professional-portfolio/">the application's page</a> to view in action.
