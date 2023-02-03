@@ -1,8 +1,7 @@
 # Professional Portfolio
-TBD
 
 ## Description
-TBD
+This web application is a portfolio page that includes some information about myself and some of the projects I have completed. It utilizes HTML and CSS to provide a responsive experience and was an opportunity to develop something from scratch. Some concepts I practiced while working on this project include wireframing and flexbox.
 
 ## Acceptance Criteria
 
@@ -21,7 +20,8 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport   
 
 ## Mock-Up
-TBD
+The following video shows the web application's appearance:
+<a href="https://user-images.githubusercontent.com/24467248/216482437-5b326ea0-5baa-4634-b566-251885c1be61.mp4"></a>
 
 ## Link
 TBD
