@@ -21,7 +21,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ## Mock-Up
 The following video shows the web application's appearance:
-<a href="https://user-images.githubusercontent.com/24467248/216482437-5b326ea0-5baa-4634-b566-251885c1be61.mp4"></a>
+https://user-images.githubusercontent.com/24467248/216482437-5b326ea0-5baa-4634-b566-251885c1be61.mp4
 
 ## Link
 TBD
